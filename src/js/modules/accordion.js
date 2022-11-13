@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     content.forEach((e) => {
       e.classList.add("accordion__body--hide");
     });
-    const currentElement = e.path[1];
+    const currentElement = e.composedPath()[1];
     const currentContent = currentElement.querySelector(".accordion__body");
     const height = currentContent.scrollHeight + 10;
     block.style.setProperty("--adaptive-height", `${height}px`);
