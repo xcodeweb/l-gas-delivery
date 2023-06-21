@@ -1,5 +1,6 @@
-https://zcxcode.github.io/gas-delivery/
-# Верстка макета
+https://zcxweb.github.io/gas-delivery
+
+# Верстка
 
 ## Стек
 
